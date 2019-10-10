@@ -21,8 +21,3 @@ EC2_IP=$( aws ec2 describe-instances --instance-ids $EC2_INSTANCE --output json 
 echo Connecting to: $EC2_IP
 ssh -i $ECS_PEM_FILE core@$EC2_IP
 #ssh -i $ECS_PEM_FILE core@$EC2_IP -t 'bash -c "docker exec -it $( docker ps -a -q -f name=dd-agent | head -n 1 ) bash"'
-
-#unassh -i $ECS_PEM_FILE core@$EC2_IP -t 'bash -c "docker exec -it datadog-agent agent flare 246844"'
-
-# COMMAND TO SEND THE FLARE, THIS COMMAND NEED TO BE EXECUTE AFTER LOGGED INTO THE INSTANCE
-# docker exec -it dd-agent /etc/init.d/datadog-agent flare 246844
