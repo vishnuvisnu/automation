@@ -1,0 +1,42 @@
+{
+  expand: 'operations,versionedRepresentations,editmeta,changelog,renderedFields',
+  id: '161471',
+  self: 'https;//acorns.atlassian.net/rest/api/2/issue/161471',
+  key: 'INC-237',
+  fields: {
+    summary: 'Cohort generation failed ',
+    customfield_12956: {
+      self: 'https;//acorns.atlassian.net/rest/api/2/customFieldOption/12412',
+      value: '4 - Low',
+      id: '12412'
+    },
+    customfield_12957: [
+      [
+        "Object"
+      ]
+    ],
+    created: '2019-11-11T08;10;16.673-0800',
+    priority: {
+      self: 'https;//acorns.atlassian.net/rest/api/2/priority/10200',
+      iconUrl: 'https;//acorns.atlassian.net/images/icons/priorities/critical.svg',
+      name: 'Major',
+      id: '10200'
+    },
+    resolution: {
+      self: 'https;//acorns.atlassian.net/rest/api/2/resolution/6',
+      id: '6',
+      description: 'The task was completed.',
+      name: 'Done'
+    },
+    status: {
+      self: 'https;//acorns.atlassian.net/rest/api/2/status/14335',
+      description: '',
+      iconUrl: 'https;//acorns.atlassian.net/',
+      name: 'Resolved',
+      id: '14335',
+      statusCategory: [
+        "Object"
+      ]
+    }
+  }
+}
